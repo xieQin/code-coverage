@@ -1,0 +1,530 @@
+{
+  "/Users/cherishhsieh/Documents/cherish/code-coverage/src/components/TodoListItem.vue": {
+    "path": "/Users/cherishhsieh/Documents/cherish/code-coverage/src/components/TodoListItem.vue",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {},
+    "inputSourceMap": {
+      "version": 3,
+      "sources": [
+        "/Users/cherishhsieh/Documents/cherish/code-coverage/src/components/TodoListItem.vue"
+      ],
+      "names": [],
+      "mappings": ";;;;;;;;;;;AAWA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA",
+      "file": "TodoListItem.vue",
+      "sourceRoot": "",
+      "sourcesContent": [
+        "<template>\n    <li data-at=\"todoItem\" class=\"todoItem\">\n        <span data-at=\"todoText\" class=\"todoText\">\n            {{ todo.text }}\n        </span>\n        <button @click=\"$emit('remove', todo.id)\" data-at=\"removeTodoBtn\">X</button>\n        \n    </li>\n</template>\n\n<script>\nexport default {\n  name: 'TodoListItem',\n  props: {\n      todo: {\n          type: Object,\n          required: true\n      }\n  }\n}\n</script>\n\n<style>\n  .todoText {\n    margin-right: 1em;\n  }\n  .todoItem {\n    display: block;\n  }\n</style>\n"
+      ]
+    },
+    "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+    "hash": "250889c14a63e8714cd4654e6cfa814d249f9c56"
+  },
+  "/Users/cherishhsieh/Documents/cherish/code-coverage/src/components/Todo.vue": {
+    "path": "/Users/cherishhsieh/Documents/cherish/code-coverage/src/components/Todo.vue",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 22,
+          "column": 20
+        },
+        "end": {
+          "line": 22,
+          "column": 21
+        }
+      },
+      "1": {
+        "start": {
+          "line": 29,
+          "column": 4
+        },
+        "end": {
+          "line": 32,
+          "column": 5
+        }
+      },
+      "2": {
+        "start": {
+          "line": 36,
+          "column": 27
+        },
+        "end": {
+          "line": 36,
+          "column": 47
+        }
+      },
+      "3": {
+        "start": {
+          "line": 37,
+          "column": 20
+        },
+        "end": {
+          "line": 37,
+          "column": 76
+        }
+      },
+      "4": {
+        "start": {
+          "line": 37,
+          "column": 49
+        },
+        "end": {
+          "line": 37,
+          "column": 75
+        }
+      },
+      "5": {
+        "start": {
+          "line": 38,
+          "column": 6
+        },
+        "end": {
+          "line": 44,
+          "column": 7
+        }
+      },
+      "6": {
+        "start": {
+          "line": 39,
+          "column": 10
+        },
+        "end": {
+          "line": 42,
+          "column": 12
+        }
+      },
+      "7": {
+        "start": {
+          "line": 43,
+          "column": 10
+        },
+        "end": {
+          "line": 43,
+          "column": 28
+        }
+      },
+      "8": {
+        "start": {
+          "line": 47,
+          "column": 8
+        },
+        "end": {
+          "line": 47,
+          "column": 62
+        }
+      },
+      "9": {
+        "start": {
+          "line": 47,
+          "column": 47
+        },
+        "end": {
+          "line": 47,
+          "column": 61
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 28,
+            "column": 2
+          },
+          "end": {
+            "line": 28,
+            "column": 3
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 28,
+            "column": 10
+          },
+          "end": {
+            "line": 33,
+            "column": 3
+          }
+        },
+        "line": 28
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 35,
+            "column": 4
+          },
+          "end": {
+            "line": 35,
+            "column": 5
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 35,
+            "column": 14
+          },
+          "end": {
+            "line": 45,
+            "column": 5
+          }
+        },
+        "line": 35
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 37,
+            "column": 41
+          },
+          "end": {
+            "line": 37,
+            "column": 42
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 37,
+            "column": 49
+          },
+          "end": {
+            "line": 37,
+            "column": 75
+          }
+        },
+        "line": 37
+      },
+      "3": {
+        "name": "(anonymous_3)",
+        "decl": {
+          "start": {
+            "line": 46,
+            "column": 4
+          },
+          "end": {
+            "line": 46,
+            "column": 5
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 46,
+            "column": 19
+          },
+          "end": {
+            "line": 48,
+            "column": 5
+          }
+        },
+        "line": 46
+      },
+      "4": {
+        "name": "(anonymous_4)",
+        "decl": {
+          "start": {
+            "line": 47,
+            "column": 39
+          },
+          "end": {
+            "line": 47,
+            "column": 40
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 47,
+            "column": 47
+          },
+          "end": {
+            "line": 47,
+            "column": 61
+          }
+        },
+        "line": 47
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 38,
+            "column": 6
+          },
+          "end": {
+            "line": 44,
+            "column": 7
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 38,
+              "column": 6
+            },
+            "end": {
+              "line": 44,
+              "column": 7
+            }
+          },
+          {
+            "start": {
+              "line": 38,
+              "column": 6
+            },
+            "end": {
+              "line": 44,
+              "column": 7
+            }
+          }
+        ],
+        "line": 38
+      },
+      "1": {
+        "loc": {
+          "start": {
+            "line": 38,
+            "column": 10
+          },
+          "end": {
+            "line": 38,
+            "column": 38
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 38,
+              "column": 10
+            },
+            "end": {
+              "line": 38,
+              "column": 22
+            }
+          },
+          {
+            "start": {
+              "line": 38,
+              "column": 26
+            },
+            "end": {
+              "line": 38,
+              "column": 38
+            }
+          }
+        ],
+        "line": 38
+      }
+    },
+    "s": {
+      "0": 3,
+      "1": 3,
+      "2": 3,
+      "3": 3,
+      "4": 1,
+      "5": 3,
+      "6": 3,
+      "7": 3,
+      "8": 1,
+      "9": 1
+    },
+    "f": {
+      "0": 3,
+      "1": 3,
+      "2": 1,
+      "3": 1,
+      "4": 1
+    },
+    "b": {
+      "0": [
+        3,
+        0
+      ],
+      "1": [
+        3,
+        3
+      ]
+    },
+    "inputSourceMap": {
+      "version": 3,
+      "sources": [
+        "/Users/cherishhsieh/Documents/cherish/code-coverage/src/components/Todo.vue"
+      ],
+      "names": [],
+      "mappings": ";;;;;;;;;;;;;;;;;;;;AAoBA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA",
+      "file": "Todo.vue",
+      "sourceRoot": "",
+      "sourcesContent": [
+        "<template>\n    <section>\n        <h1 class=\"header\">My Todo App!</h1>\n        <input type=\"text\" placeholder=\"Enter Todo\" v-model=\"todoText\" class=\"inputTodo\" data-at=\"new-todo\" @keydown.enter=\"addTodo\">\n        <ul v-if=\"todos.length\">\n            <TodoListItem \n              v-for=\"todo in todos\"\n              :key=\"todo.id\"\n              :todo=\"todo\"\n              @remove=\"removeTodo\"\n            >\n            </TodoListItem>\n        </ul>\n        <p v-else data-at=\"noTodo\">\n            No Anything Todo\n        </p>\n    </section>\n</template>\n\n<script>\nimport TodoListItem from './TodoListItem.vue'\nlet initialTodoId = 1\nexport default {\n  name: 'Todo',\n  components: {\n    TodoListItem\n  },\n  data () {\n    return {\n      todos: [],\n      todoText: ''\n    }\n  },\n  methods: {\n    addTodo() {\n      const trimTodoText = this.todoText.trim()\n      const exist = this.todos.findIndex(item => item.text === trimTodoText)\n      if (trimTodoText && exist === -1) {\n          this.todos.push({\n              id: initialTodoId++,\n              text: trimTodoText\n          })\n          this.todoText = ''\n      }\n    },\n    removeTodo(id) {\n        this.todos = this.todos.filter(todo => todo.id !== id)\n    }\n  }\n}\n</script>\n\n<style>\n.header {\n    font-size: 50px;\n    font-family: Arial, Helvetica, sans-serif;\n    font-weight: bold;\n}\n\n.inputTodo {\n    width: 50%;\n    box-sizing: border-box;\n    padding: 12px 20px;\n    font-size: 32px;\n}\n\n</style>\n"
+      ]
+    },
+    "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+    "hash": "6e56ed3697e34a7b623fa2b034e02c05a0094b5e"
+  },
+  "/Users/cherishhsieh/Documents/cherish/code-coverage/src/App.vue": {
+    "path": "/Users/cherishhsieh/Documents/cherish/code-coverage/src/App.vue",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {},
+    "inputSourceMap": {
+      "version": 3,
+      "sources": [
+        "/Users/cherishhsieh/Documents/cherish/code-coverage/src/App.vue"
+      ],
+      "names": [],
+      "mappings": ";;;;;;;AAOA;;AAEA;AACA;AACA;AACA;AACA;AACA",
+      "file": "App.vue",
+      "sourceRoot": "",
+      "sourcesContent": [
+        "<template>\n  <div id=\"app\">\n    <Todo></Todo>\n  </div>\n</template>\n\n<script>\nimport Todo from './components/Todo.vue'\n\nexport default {\n  name: 'app',\n  components: {\n    Todo\n  }\n}\n</script>\n\n<style>\n#app {\n  font-family: 'Avenir', Helvetica, Arial, sans-serif;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n  text-align: center;\n  color: #2c3e50;\n}\n</style>\n"
+      ]
+    },
+    "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+    "hash": "f4180a50b8f9fb4c8b4f1cf5b36a0955a4df7e55"
+  },
+  "/Users/cherishhsieh/Documents/cherish/code-coverage/src/main.js": {
+    "path": "/Users/cherishhsieh/Documents/cherish/code-coverage/src/main.js",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 4,
+          "column": 0
+        },
+        "end": {
+          "line": 4,
+          "column": 32
+        }
+      },
+      "1": {
+        "start": {
+          "line": 6,
+          "column": 0
+        },
+        "end": {
+          "line": 8,
+          "column": 17
+        }
+      },
+      "2": {
+        "start": {
+          "line": 7,
+          "column": 15
+        },
+        "end": {
+          "line": 7,
+          "column": 21
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 7,
+            "column": 10
+          },
+          "end": {
+            "line": 7,
+            "column": 11
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 15
+          },
+          "end": {
+            "line": 7,
+            "column": 21
+          }
+        },
+        "line": 7
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 3,
+      "1": 3,
+      "2": 3
+    },
+    "f": {
+      "0": 3
+    },
+    "b": {},
+    "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+    "hash": "01f779eb2a0995293a22d9edae6117c5baa84828"
+  },
+  "/Users/cherishhsieh/Documents/cherish/code-coverage/src/utils/index.js": {
+    "path": "/Users/cherishhsieh/Documents/cherish/code-coverage/src/utils/index.js",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 1,
+          "column": 24
+        },
+        "end": {
+          "line": 3,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 2,
+          "column": 2
+        },
+        "end": {
+          "line": 2,
+          "column": 14
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 1,
+            "column": 24
+          },
+          "end": {
+            "line": 1,
+            "column": 25
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 34
+          },
+          "end": {
+            "line": 3,
+            "column": 1
+          }
+        },
+        "line": 1
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 1,
+      "1": 1
+    },
+    "f": {
+      "0": 1
+    },
+    "b": {},
+    "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+    "hash": "3ca4e687f2bc6ae0a1f4956b9602fddc74aa6b92"
+  }
+}
