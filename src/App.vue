@@ -1,16 +1,19 @@
 <template>
   <div id="app">
     <Todo></Todo>
+    <Toggle></Toggle>
   </div>
 </template>
 
 <script>
 import Todo from './components/Todo.vue'
+import Toggle from './components/Toggle.vue'
 
 export default {
   name: 'app',
   components: {
-    Todo
+    Todo,
+    Toggle
   }
 }
 </script>

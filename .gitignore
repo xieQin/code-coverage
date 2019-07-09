@@ -21,3 +21,5 @@ yarn-error.log*
 *.sw?
 package-lock.json
 vue-jest/
+package-lock.json
+package-lock.json
