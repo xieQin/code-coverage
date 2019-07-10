@@ -22,7 +22,7 @@ npm run e2e
 ```
 
 3. 启动cypress后点击 Run all specs
-![avatar](http://za-pub-cmis.oss-cn-hzfinance.aliyuncs.com/noahcms/img/1b97860b-6075-445c-85f9-781f07970a75.png?OSSAccessKeyId=LTAIcgcYhAfGfGqJ&Signature=sy83AgDFfCfb6pMzmj6LGMmxyNk%3D&Expires=1878085354)
+![avatar](http://chuantu.xyz/t6/702/1562725690x2728294127.png)
 
 4. 查看覆盖率报告
 
