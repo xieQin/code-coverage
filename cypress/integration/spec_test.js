@@ -1,5 +1,3 @@
-/// <reference types="Cypress" />
-
 describe('Add Todo', () => {
     beforeEach(() => {
         cy.visit(Cypress.config('baseUrl'))
@@ -28,7 +26,6 @@ describe('Add Todo', () => {
 
     it('shows default message', () => {
         cy.get('#toggle-message').should(($div) => {
-            // access the native DOM element
             expect($div.get(0).innerText).to.eq('default message')
         })
     })
@@ -36,12 +33,10 @@ describe('Add Todo', () => {
     it('toggle message', () => {
         cy.get('#btn-toggle').click()
         cy.get('#toggle-message').should(($div) => {
-            // access the native DOM element
             expect($div.get(0).innerText).to.eq('toggle message')
         })
         cy.get('#btn-toggle').click()
         cy.get('#toggle-message').should(($div) => {
-            // access the native DOM element
             expect($div.get(0).innerText).to.eq('default message')
         })
     })
