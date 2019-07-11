@@ -17,27 +17,27 @@ describe('Add Todo', () => {
         cy.get('[data-at="removeTodoBtn"]').should('have.length', 2)
     })
 
-    it('should be able to delete todo', () => {
-        const todoText = 'To be deleleted'
-        cy.get('[data-at="new-todo"]').type(`${todoText}{enter}`)
-        cy.get('[data-at="removeTodoBtn"]').click()
-        cy.get('[data-at="noTodo"]').should('contain', 'No Anything Todo')
-    })
+    // it('should be able to delete todo', () => {
+    //     const todoText = 'To be deleleted'
+    //     cy.get('[data-at="new-todo"]').type(`${todoText}{enter}`)
+    //     cy.get('[data-at="removeTodoBtn"]').click()
+    //     cy.get('[data-at="noTodo"]').should('contain', 'No Anything Todo')
+    // })
 
-    it('shows default message', () => {
-        cy.get('#toggle-message').should(($div) => {
-            expect($div.get(0).innerText).to.eq('default message')
-        })
-    })
+    // it('shows default message', () => {
+    //     cy.get('#toggle-message').should(($div) => {
+    //         expect($div.get(0).innerText).to.eq('default message')
+    //     })
+    // })
 
-    it('toggle message', () => {
-        cy.get('#btn-toggle').click()
-        cy.get('#toggle-message').should(($div) => {
-            expect($div.get(0).innerText).to.eq('toggle message')
-        })
-        cy.get('#btn-toggle').click()
-        cy.get('#toggle-message').should(($div) => {
-            expect($div.get(0).innerText).to.eq('default message')
-        })
-    })
+    // it('toggle message', () => {
+    //     cy.get('#btn-toggle').click()
+    //     cy.get('#toggle-message').should(($div) => {
+    //         expect($div.get(0).innerText).to.eq('toggle message')
+    //     })
+    //     cy.get('#btn-toggle').click()
+    //     cy.get('#toggle-message').should(($div) => {
+    //         expect($div.get(0).innerText).to.eq('default message')
+    //     })
+    // })
 })
