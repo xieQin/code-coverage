@@ -1,5 +1,4 @@
 # e2e-code-coverage
-[toc]
 
 前端e2e测试及代码覆盖率
 
@@ -17,29 +16,28 @@ npm install
 ```
 
 ## 执行e2e测试及步骤
-- 1. 启动项目
+- 启动项目
 
 ```
 npm run serve
 ```
 
-- 2. 执行e2e测试
+- 执行e2e测试
 
 ```
 npm run e2e
 ```
 上述命令会自动启动cypress
 
-- 3. 启动cypress后点击 Run all specs
-![avatar](http://chuantu.xyz/t6/702/1562725690x2728294127.png)
+- 启动cypress后点击 Run all specs
 
-- 4. 命令行查看覆盖率报告
+- 命令行查看覆盖率报告
 
 ```
 npm run report:compact
 ```
 
-- 5. 查看具体覆盖率报告
+- 查看具体覆盖率报告
 
 打开在coverage/index.html查看具体覆盖率报告
 
